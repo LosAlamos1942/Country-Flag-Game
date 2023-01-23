@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AnswerRow_: View {
+struct AnswerRow: View {
     var answer: Answer
     @State private var isSelected = false
     var body: some View {
@@ -35,7 +35,7 @@ struct AnswerRow_: View {
     
     struct AnswerRow__Previews: PreviewProvider {
         static var previews: some View {
-            AnswerRow_(answer: Answer(text: "Test", isCorrect: true))
+            AnswerRow(answer: Answer(text: "Test", isCorrect: true))
         }
     }
 

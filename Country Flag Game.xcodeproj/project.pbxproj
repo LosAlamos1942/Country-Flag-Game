@@ -15,6 +15,7 @@
 		D20E68792979E74700DE0D77 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20E68782979E74700DE0D77 /* CustomButton.swift */; };
 		D20E687B2979E7E700DE0D77 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20E687A2979E7E700DE0D77 /* ProgressBar.swift */; };
 		D20E687D2979E86400DE0D77 /* AnswerRow .swift in Sources */ = {isa = PBXBuildFile; fileRef = D20E687C2979E86400DE0D77 /* AnswerRow .swift */; };
+		D20E687F2979EB0600DE0D77 /* QuestionView .swift in Sources */ = {isa = PBXBuildFile; fileRef = D20E687E2979EB0600DE0D77 /* QuestionView .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		D20E68782979E74700DE0D77 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		D20E687A2979E7E700DE0D77 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		D20E687C2979E86400DE0D77 /* AnswerRow .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnswerRow .swift"; sourceTree = "<group>"; };
+		D20E687E2979EB0600DE0D77 /* QuestionView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionView .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				D20E68642979E36100DE0D77 /* ContentView.swift */,
+				D20E687E2979EB0600DE0D77 /* QuestionView .swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				D20E68772979E57700DE0D77 /* Question.swift in Sources */,
 				D20E68652979E36100DE0D77 /* ContentView.swift in Sources */,
 				D20E687D2979E86400DE0D77 /* AnswerRow .swift in Sources */,
+				D20E687F2979EB0600DE0D77 /* QuestionView .swift in Sources */,
 				D20E687B2979E7E700DE0D77 /* ProgressBar.swift in Sources */,
 				D20E68632979E36100DE0D77 /* Country_Flag_GameApp.swift in Sources */,
 			);
