@@ -5,13 +5,12 @@
 //  Created by Induran Aderinto  on 1/19/23.
 //
 
+import Foundation
 import SwiftUI
 
 struct CustomButton: View {
     var text: String
     var background: Color = .yellow
-    
-    
     var body: some View {
         Text(text)
             .foregroundColor(.cyan)
