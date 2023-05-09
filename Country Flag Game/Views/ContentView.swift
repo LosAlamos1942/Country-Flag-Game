@@ -25,7 +25,7 @@ struct ContentView: View {
                         .environmentObject(quizManager)
                         .navigationBarBackButtonHidden()
                 } label: {
-                    CustomButton(text: "Start")
+                    CustomButton(text: "Start Game")
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
