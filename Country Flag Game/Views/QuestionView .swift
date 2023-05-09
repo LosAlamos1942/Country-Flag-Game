@@ -41,7 +41,8 @@ struct QuestionView: View {
             }
             .padding()
             .background(.cyan)
-        } else {
+        }
+        else {
             VStack(spacing: 20) {
                 Text("Country Flag Game")
                     .font(.title)

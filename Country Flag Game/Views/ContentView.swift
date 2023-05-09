@@ -17,7 +17,7 @@ struct ContentView: View {
                         .font(.title)
                         .fontWeight(.heavy)
                         .foregroundColor(.yellow)
-                    Text("Ready to test your skills?!!")
+                    Text("Ready to test your skills?!")
                         .foregroundColor(.yellow)
                 }
                 NavigationLink {
