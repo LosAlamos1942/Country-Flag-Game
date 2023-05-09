@@ -34,7 +34,7 @@ struct QuestionView: View {
                 Button {
                     quizManager.goToNextQuestion()
                 } label: {
-                    CustomButton(text: "Next", background: quizManager.answerSelected ? .yellow : .gray)
+                    CustomButton(text: "Next Question", background: quizManager.answerSelected ? .yellow : .gray)
                 }
                 .disabled(!quizManager.answerSelected)
                 Spacer()
